@@ -8,7 +8,12 @@
 	color: #fff;
 	background-color: #5995DA;		/*Blue*/
 	padding: 20px 0;
+	/* The first step in using flexbox is to turn one of our HTML elements
+	into a flex container*/
 	display: flex;
+	/* After you’ve got a flex container, your next job is to define the
+	horizontal alignment of its items. */
+	justify-content: center;
 }
 
 .menu {
